@@ -1,0 +1,57 @@
+/* UpdateEmployeeForm.css */
+
+.update-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-form label {
+  margin-bottom: 10px;
+}
+
+.update-form input[type="text"],
+.update-form input[type="checkbox"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-form input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.update-button,
+.cancel-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.update-button:hover,
+.cancel-button:hover {
+  opacity: 0.8;
+}
