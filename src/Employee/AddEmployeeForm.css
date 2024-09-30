@@ -1,0 +1,41 @@
+/* src/AddEmployeeForm.css */
+
+.add-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-form1 {
+  display: block;
+  margin: 10px 0;
+}
+
+.boxa {
+  display: flex;
+    
+    padding: 7px;
+    margin: 5px 0;
+    flex-direction: row-reverse;
+    
+}
+.boxa1 {
+  width: 100%;
+    margin: 8px 0;
+}
+
+.add-form button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.add {
+  background-color: green;
+  color: white;
+}
+
+.cancel {
+  background-color: red;
+  color: white;
+}
